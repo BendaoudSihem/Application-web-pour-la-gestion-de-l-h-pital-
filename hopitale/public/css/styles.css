@@ -1,0 +1,312 @@
+/******FB like plugin's*/
+.fb-plugin{
+    padding-left: 23%;
+}
+h1, .h1{
+    color: #42729B;
+}
+
+.h1{
+    color: #fff;
+}
+
+.btn-warning{
+    background-color: #FF8600;
+    color: #FFFFFF;
+    border-color: #FF8600;
+}
+.btn-danger{
+    background-color: #E22211;
+}
+.btn-primary{
+    background: #31A3FF;
+    border: none;
+    color: #FFF;
+}
+/*Main rules*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a > i,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    background-color: #00B2EE;
+    color: #000;
+}
+body {
+    padding-top: 160px;
+    background: url(../img/overlay.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  position: relative;
+}
+
+h4>b{
+    color: #fff;
+}
+
+/*Start Wrapper container*/
+a:hover{ /*for a without href*/
+    cursor: pointer;
+}
+.wrapper-container{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1050;
+    display: none;
+}
+.wrapper-container .login-popup{
+    margin-top: 100px;
+    background: #232f3e;
+    min-height: 400px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 0 #000;
+    color: #FFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.wrapper-container .login-popup h2{
+    margin-bottom: 40px;
+}
+.wrapper-container .login-popup .sign-up{
+    display: none;
+}
+.wrapper-container .login-popup .btn{
+    background-color: #31A3FF;
+}
+.wrapper-container .login-popup .sign-up .fa-eye{
+    position: absolute;
+    top: 27px;
+    right: -19px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .wrapper-container .login-popup{
+        margin-top: 20px;
+    }
+    .wrapper-container .login-popup .fa-eye{
+        right: -11px !important;
+        top: 31px !important;
+        font-size: 21px;
+    }
+}
+.wrapper-container .login-popup .h1{
+    font-weight: bold;
+    margin-top: 0;
+}
+.wrapper-container .login-popup .fa-stack{
+    position: absolute;
+    top: -3%;
+    right: -3%;
+    background: #FFF;
+    border-radius: 50%;
+    color: #000;
+}
+.wrapper-container .login-popup .fa-stack:hover{
+    cursor: pointer;
+}
+/*End Wrapper container*/
+/*Start Navbar*/
+.navbar {
+    border-radius: 0;
+}
+
+.navbar {
+    background: url('../img/e.jpg')no-repeat;
+}
+.navbar > .container .navbar-brand{
+   /*slogon couleur*/
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: MingLiU;
+}
+.navbar > .container .navbar-brand span {
+    color: #00B2EE   ;
+}
+.navbar > .container .navbar-brand .slogon{
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+}
+.nav .fa{
+    color: #000;
+    padding: 9px 20px 0 10px;
+    font-size: 24px;
+}
+.navbar-nav > li > a[class='fa-parent']{
+    padding: 0px;
+}
+.nav .fa:hover{
+    cursor: pointer;
+}
+
+.navbar-default .navbar-nav   {
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 10px 10px 10px 10px;
+}
+.navbar-default .navbar-nav  li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav  li > a:hover {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #00B2EE;
+    color: #000;
+}
+.navbar-default .navbar-nav .dropdown-menu li > a{
+    background-color: #fff;
+    color: #000000;
+}
+
+/*End Navbar*/
+
+
+/*medecin css*/
+.medecin   {
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 10px 10px 10px 10px;
+}
+/*Start Search bar*/
+.search-bar{
+    margin: 20px
+}
+/*End Search Bar*/
+/*Start Slide*/
+.slide{
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+#myslide img{
+    max-width: 100%;
+}
+.slide .carousel{
+    border: solid 20px #fff;
+    border-radius: 15px 15px 15px 15px;
+}
+/*End Slide*/
+
+/*Start Services*/
+.services{
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 15px 15px 15px 15px;
+}
+.services .service {
+    margin-top: 30px;
+}
+.services  a>h3 ,.services a{
+    margin-top: 30px;
+    color: #fff;
+}
+.services .service .service-icon{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    color: #FFF;
+    margin-bottom: 40px;
+}
+.services .urgence .service-icon{
+    background-color: #ee1e07;
+}
+.services .contact .service-icon{
+    background-color: #07ee8b;
+}
+.services .aide .service-icon{
+    background-color: #0768ee;
+}
+.services .service .service-icon .fa{
+    line-height: 120px;
+}
+/*End Services*/
+/*Start footer*/
+.footer .panel-footer{
+    color: #fff;
+    background-color: #153b8d;
+    padding: 10px 0 0 0;
+}
+.footer h3{
+    margin-bottom: 20px;
+}
+.footer .fa{
+    margin: 0 5px;
+}
+.footer a .fa-facebook-square
+{
+    color: #fff;
+}
+.footer a .fa-twitter-square{
+    color: #3B94D9;
+}
+.footer a .fa-google-plus-square{
+    color: #db4437;
+}
+.footer a .fa-instagram{
+    padding: 0 3px;
+}
+.footer a .fa-instagram{
+    background: linear-gradient(135deg, #EA5C54 0%, #bb6dec 100%);
+    color: #FFF;
+    border-radius: 5px;
+
+}
+.footer #map{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+}
+.footer .copyright, .footer .fa-copyright{
+    background-color: #111;
+    color: #FFF;
+}
+/*End footer*/
+/*Start Search button*/
+#goToSearch{
+    color: #FFF;
+    background: #1034e7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 58px;
+    position: fixed;
+    top: 85%;
+    right: 3%;
+    cursor: pointer;
+    z-index: 2000;
+    box-shadow: 2px 2px 5px #777;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+    display: none;
+}
+#goToSearch:hover{
+    height: 53px;
+    width: 53px;
+}
+/*End Search Button*/
+
+/*Start Contact*/
+.contact textarea{
+    height: 107px;
+}
+.contact h1{
+    margin-bottom: 50px;
+}
+/*End Contact*/
+.div-square {
+    padding:5px;
+    border:0px double #e1e1e1;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#808080;
+     text-decoration:none;
+}
+ 
